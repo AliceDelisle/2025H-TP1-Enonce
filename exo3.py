@@ -35,7 +35,7 @@ elif delta == 0:
 elif delta > 0 :
         # Déterminer la condition (bool) qui correspond à deux solutions de l'équation et mettre la valeur dans "aDeuxSolutions"
         # aDeuxSolutions = ..
-        aDeuxSolutiions= delta
+        aDeuxSolutions= delta
         if aDeuxSolutions:
             # afficher sur l'écran "Deux racines"
             # print("Deux racines")
