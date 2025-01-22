@@ -11,7 +11,7 @@ delta = (b**2 - 4*a*c)
 # naPasDeSolution = ...
 if delta < 0 :
     naPasDeSolution = delta
-if naPasDeSolution:
+    if naPasDeSolution:
     # ces ligne de code seront executé si il y'a aucune racine
     # afficher sur l'écran "Aucune racine"
     # print("Aucune racine")
