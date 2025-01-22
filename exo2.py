@@ -22,4 +22,4 @@ print(representation_graphique)
 # Exemple d'utilisation :
 # Si l'utilisateur entre 76, la sortie sera :
 # [❚❚❚❚❚❚❚❚     ]
-# 76
+# 76 % de charge
