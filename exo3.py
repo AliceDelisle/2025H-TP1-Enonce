@@ -6,19 +6,22 @@ c = int(input("Entrez c: "))
 
 # Calculer le discriminant et assigner la valeur dans la variable "delta"
 # delta = ...
-
+delta = (b^(2) - 4*a*c)
 # Déterminer la condition (bool) qui correspond à aucune solution de l'équation et mettre la valeur dans la variable "naPasDeSolution"
 # naPasDeSolution = ...
-
+if delta < 0 :
+    naPasDeSolution = delta
 if naPasDeSolution:
     # ces ligne de code seront executé si il y'a aucune racine
     # afficher sur l'écran "Aucune racine"
     # print("Aucune racine")
+    print('Aucune racine')
     pass
-else:
+elif:
     # Déterminer la condition (bool) qui correspond à une unique solution de l'équation et mettre la valeur dans "aUneSeuleSolution"
     # aUneSeuleSolution = ...
-
+    delta == 0
+    aUneSeuleSolution = delta
     if aUneSeuleSolution:
         # ces ligne de code seront executé si il y'a une seule racine
         # afficher sur l'écran "Une seule racine"
@@ -26,11 +29,15 @@ else:
         # assigner a la variable x1 la valeur de la racine
         # x1 = ...
         # print(x1)
+        print('une seule racine')
+        x1= (-b + math.sqrt(delta))/2*a
+        print(x1)
         pass
-    else:
+        elif:
         # Déterminer la condition (bool) qui correspond à deux solutions de l'équation et mettre la valeur dans "aDeuxSolutions"
         # aDeuxSolutions = ...
-
+         delta > 0 
+         aDeuxSolutiions= delta
         if aDeuxSolutions:
             # afficher sur l'écran "Deux racines"
             # print("Deux racines")
@@ -39,6 +46,10 @@ else:
             # calculer la deuxieme racine, assigner la a "x2"
             # x2 = ...
             # print(x1, x2)
+            print('deux racine')
+            x1= (-b + math.sqrt(delta))/2*a
+            x2= (-b - math.sqrt(delta))/2*a
+            print(x1,x2)
             pass
 
 # Exemple d'utilisation:
