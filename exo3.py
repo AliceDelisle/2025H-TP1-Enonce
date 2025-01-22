@@ -12,11 +12,11 @@ delta = (b**2 - 4*a*c)
 if delta < 0 :
     naPasDeSolution = delta
     if naPasDeSolution:
-    # ces ligne de code seront executé si il y'a aucune racine
-    # afficher sur l'écran "Aucune racine"
-    # print("Aucune racine")
-    print('Aucune racine')
-    pass
+        # ces ligne de code seront executé si il y'a aucune racine
+        # afficher sur l'écran "Aucune racine"
+        # print("Aucune racine")
+        print('Aucune racine')
+        pass
 elif delta == 0:
     # Déterminer la condition (bool) qui correspond à une unique solution de l'équation et mettre la valeur dans "aUneSeuleSolution"
     # aUneSeuleSolution = ...
