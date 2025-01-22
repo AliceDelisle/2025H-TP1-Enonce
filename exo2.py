@@ -24,4 +24,4 @@ print(niveau_de_batterie + '%')
 # Exemple d'utilisation :
 # Si l'utilisateur entre 76, la sortie sera :
 # [❚❚❚❚❚❚❚❚     ]
-# 76 % de charge
+# 76 % de charge de la batterie
