@@ -13,9 +13,9 @@ nombre_de_barre = niveau_de_baterie_arondi // 10
 espace= ''
 for i in range(1,2):
     if niveau_de_baterie_arondi %10 == 0:
-        print('['nombre_de_barre * '❚'+ espace']\n 'niveau_de_baterie + '%')
+        print('[+ str(nombre_de_barre)* ❚ espace + ]\n' + niveau_de_baterie + '%')
         
-    else: print('['(nombre_de_barre%10)*espace']\n 'niveau_de_baterie + '%') 
+    else: print('['(nombre_de_barre%10)*espace +']\n' + niveau_de_baterie + '%') 
      
 
 
