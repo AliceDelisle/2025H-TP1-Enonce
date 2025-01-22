@@ -6,7 +6,7 @@ c = int(input("Entrez c: "))
 
 # Calculer le discriminant et assigner la valeur dans la variable "delta"
 # delta = ...
-delta = (b^(2) - 4*a*c)
+delta = (b**2 - 4*a*c)
 # Déterminer la condition (bool) qui correspond à aucune solution de l'équation et mettre la valeur dans la variable "naPasDeSolution"
 # naPasDeSolution = ...
 if delta < 0 :
@@ -17,10 +17,9 @@ if naPasDeSolution:
     # print("Aucune racine")
     print('Aucune racine')
     pass
-elif:
+elif delta == 0:
     # Déterminer la condition (bool) qui correspond à une unique solution de l'équation et mettre la valeur dans "aUneSeuleSolution"
     # aUneSeuleSolution = ...
-    delta == 0
     aUneSeuleSolution = delta
     if aUneSeuleSolution:
         # ces ligne de code seront executé si il y'a une seule racine
@@ -33,11 +32,10 @@ elif:
         x1= (-b + math.sqrt(delta))/2*a
         print(x1)
         pass
-        elif:
+elif delta > 0 :
         # Déterminer la condition (bool) qui correspond à deux solutions de l'équation et mettre la valeur dans "aDeuxSolutions"
-        # aDeuxSolutions = ...
-         delta > 0 
-         aDeuxSolutiions= delta
+        # aDeuxSolutions = ..
+        aDeuxSolutiions= delta
         if aDeuxSolutions:
             # afficher sur l'écran "Deux racines"
             # print("Deux racines")
